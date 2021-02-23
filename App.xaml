@@ -1,0 +1,9 @@
+﻿<Application x:Class="odtwarzacz_audio_wpf.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:odtwarzacz_audio_wpf"
+             StartupUri="WindowSuperMusicPLayer.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

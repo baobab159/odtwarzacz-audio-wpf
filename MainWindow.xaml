@@ -1,0 +1,18 @@
+﻿<Window x:Class="odtwarzacz_audio_wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:odtwarzacz_audio_wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image x:Name="previousButton" Margin="73,301,640,39" Source="previous.png" Stretch="Fill"/>
+        <Image x:Name="nextButton" Margin="676,301,37,39" Source="next.png" Stretch="Fill"/>
+        <Image x:Name="pauseButton" Margin="327,254,386,86" Source="pause.png" Stretch="Fill" RenderTransformOrigin="0.272,1.221"/>
+        <Image x:Name="playButton" Margin="328,301,385,39" Source="play.png" Stretch="Fill"/>
+        <Image x:Name="backwardsButton" Margin="195,301,518,39" Source="backward.png" Stretch="Fill"/>
+        <Image x:Name="forwardsButton" Margin="504,301,209,39" Source="forward.png" Stretch="Fill"/>
+        <ListBox x:Name="playlistListBox" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100"/>
+    </Grid>
+</Window>
